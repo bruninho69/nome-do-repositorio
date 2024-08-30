@@ -1,0 +1,64 @@
+:root{
+  --cor-fundo: #0A0F0D; 
+  --cor-principal: #162521; 
+  --cor-secundaria: #1C3D36;
+  --cor-destaque: #A7FF83; 
+  --cor-texto: #F0FFF4; 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+body {
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  cursor: url('ELDEN\ RING\ CURSOR.png'), auto; 
+}
+
+.logo {
+  width: 200px;
+}
+.caixa-principal{
+  background-color: var(--cor-principal);
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+  padding: 20px;
+}
+
+h1{
+  color: var(--cor-destaque);
+}
+
+button {
+  background-color: var(--cor-secundaria);
+  color: var(--cor-texto);
+  border: none;
+  border-radius: 15px;
+  padding: 15px;
+  transition: background-color 0.3s;
+   font-family: "Bungee Tint", sans-serif;
+   cursor: url('ELDEN\ RING\ CURSOR.png'), auto;
+}
+
+button:hover{
+  background-color: var(--cor-destaque);
+  color: var(--cor-principal);
+}
+
+.botao {
+  background-color: var(--cor-secundaria);
+  color: var(--cor-texto);
+  border: none;
+  border-radius: 15px;
+  padding: 15px;
+  transition: background-color 0.3s;
+  font-family: "Jersey 10", sans-serif;
+   cursor: url('ELDEN\ RING\ CURSOR.png'), auto;
+}
